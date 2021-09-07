@@ -1,7 +1,7 @@
 ## 说明
 使用**colly**实现对蒙古新闻网站的内容抓取，并对内容进行转换
 
-```
+```go
 func main() {
 	// Instantiate default collector
 	c := colly.NewCollector(colly.AllowedDomains("mgyxw.cn", "www.mgyxw.cn"))
